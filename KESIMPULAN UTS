@@ -1,0 +1,9 @@
+KESIMPULAN
+program yang dibuat digoogle collab sangatlah sensitive, maka dari itu kesalahan sedikitpun akan sangat berpengaruh pada program tersebut.
+pada program yang saya buat saya menggunakan foto yang sudah saya upload pada g.drive, untuk menghubungkan antara g.drive dengan program yang dibuat d g.collab yaitu dengan syntax:
+from google.colab import drive
+drive.mount('/content/drives')
+untuk memunculkan gambar tinggal memanggil fi folder mana kita menyimpannya dan apa nama file gambar yang akan kita gunakan.
+fungsi cv.cvtColor(image, cv.COLOR_BGR2RGB) adalah untuk membuat gambar agar merubah warna
+plt.hist digunakan untuk membuat histrogram, dan plt.show untuk menampilkannya
+histogram dapat dibuat untuk melihat agaimana histogram pada sebuah gambar, untuk kecerahannya atau keredupannya.
